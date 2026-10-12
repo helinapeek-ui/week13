@@ -1,14 +1,15 @@
-html
+
 <!DOCTYPE html>
 <html lang="et">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae - Helina Peek</title>
+    <title>Curriculum Vitae</title>
 
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/804c84d834.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/804c84d834.js"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,22 +18,31 @@ html
         <header>
             <div class="header-info">
                 <h1>Curriculum Vitae</h1>
-                <h2>Helina Peek</h2>
+                <h2>
+                    <span id="nimi"></span>
+                    <span id="perekonnanimi"></span>
+                </h2>
             </div>
 
             <div class="image-container">
                 <div class="cv-image">
-                    <img id="carousel-image" src="images/CV-Pilt.png" alt="Helina Peek CV foto">
+                    <img id="carousel-image"
+                        src="images/CV-Pilt.png"
+                        alt="CV foto">
                 </div>
             </div>
         </header>
 
         <section class="main">
             <div class="personal-info">
-                <p>Sünniaeg: 08.09.2003</p>
-                <p>Aadress: Tallinn</p>
-                <p>Telefon: 5600 1234</p>
-                <p>E-post: helina.peek@tktk.ee</p>
+                <p>Sünniaeg: <span id="synniaeg"></span></p>
+                <p>Vanus: <span id="vanus"></span></p>
+                <p>Aadress: <span id="aadress"></span></p>
+                <p>Telefon: <span id="telefon"></span></p>
+                <p>
+                    E-post:
+                    <a id="email" href="#"></a>
+                </p>
             </div>
 
             <div class="education">
@@ -52,7 +62,7 @@ html
 
             <div class="skills">
                 <h3>Arvuti kasutamise oskus:</h3>
-                <p>MS Office, Figma, VisualStudio</p>
+                <p id="oskused"></p>
             </div>
 
             <div class="review">
@@ -106,6 +116,7 @@ html
     </div>
 
     <script src="js/carousel.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

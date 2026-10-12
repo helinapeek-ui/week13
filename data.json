@@ -1,0 +1,15 @@
+
+{
+  "nimi": "Helina",
+  "perekonnanimi": "Peek",
+  "vanus": 23,
+  "synniaeg": "08.09.2003",
+  "aadress": "Tallinn",
+  "telefon": "5600 1234",
+  "email": "helina.peek@tktk.ee",
+  "oskused": [
+    "MS Office",
+    "Figma",
+    "Visual Studio"
+  ]
+}
